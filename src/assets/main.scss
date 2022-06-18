@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  position: fixed;
+  top: 20%;
+  flex-direction: column;
+  height: 100%;
+}
+.order__header {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 30%;
+      
+}
+
+.input__name,
+.input__surname {
+  display: flex;
+  justify-content: space-between;
+}
+
+.success {
+  width: 200px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 30%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  background-color: #005e38;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+  border-width: 1px;
+  border-radius: 5px;
+  background-color: #198c5e;
+}
+
